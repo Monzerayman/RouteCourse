@@ -1,31 +1,37 @@
-.navbar{
-  
+.navbar {
     font-family: "Poppins", sans-serif;
+    background-color: black;
+    color: white;
 }
-#head{
-    height:100vh;
- }
-.carousel-caption{
+
+#head {
+    height: 100vh;
+}
+
+.carousel-caption {
     left: 50%;
     top: 50%;
-    transform: translate(-50%,-50%);
-    -webkit-transform: translate(-50%,-50%);
-    -moz-transform: translate(-50%,-50%);
-    -ms-transform: translate(-50%,-50%);
-    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
 
-} 
-#head h1{
+#head h1 {
     font-weight: 700;
     line-height: 1;
     font-size: 70px;
 }
-.crimson{
+
+.crimson {
     color: #f25454
 }
-.grey{
+
+.grey {
     color: #666;
 }
+
 .navbar-dark .navbar-nav .nav-link {
     padding-left: .8rem;
     padding-right: .8rem;
@@ -40,48 +46,59 @@
     -ms-transition: all .15s ease;
     -o-transition: all .15s ease;
 }
-.navbar-dark .navbar-nav .active>.nav-link{
+
+.navbar-dark .navbar-nav .active>.nav-link {
     color: #f25454
 }
-.navbar-dark .navbar-nav .nav-link:hover  {
+
+.navbar-dark .navbar-nav .nav-link:hover {
     color: #f25454
 }
-.title h2{
-position: relative;
+
+.title h2 {
+    position: relative;
     font-size: 38px;
     line-height: 38px;
     font-weight: 700;
     color: #282828;
 }
-.heading p{
+
+.heading p {
     font-size: 18px;
     color: #999;
- 
 }
-.title h2::before{
+
+.title h2::before {
     position: absolute;
     font-size: 2em;
     opacity: .1;
     top: 10%;
     left: 50%;
-    transform: translate(-50%,-50%);
-    -webkit-transform: translate(-50%,-50%);
-    -moz-transform: translate(-50%,-50%);
-    -ms-transform: translate(-50%,-50%);
-    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
 }
-#about .title h2::before{
+
+#about .title h2::before {
     content: "A";
 }
-#about .aboutInner p,.member-info span, #services .serviceInner p,#contact .contactInner p, #foot  ul li{
+
+#about .aboutInner p,
+.member-info span,
+#services .serviceInner p,
+#contact .contactInner p,
+#foot ul li {
     font-size: 14px;
     line-height: 1.75em;
 }
-.progress{
+
+.progress {
     height: 4px;
-    
 }
-.progress-bar{
+
+.progress-bar {
     background-color: #f25454;
     border-radius: 0 2px 2px 0;
     line-height: 2rem;
@@ -90,25 +107,26 @@ position: relative;
     -ms-border-radius: 0 2px 2px 0;
     -o-border-radius: 0 2px 2px 0;
 }
-.titles h3{
+
+.titles h3 {
     font-size: 40px;
     font-weight: 900;
-    
     font-family: "Poppins", sans-serif;
     color: #282828;
 }
- .titles h2{
-    
+
+.titles h2 {
     font-size: 100px;
     font-weight: 900;
     color: #e9dfdf;
 }
-.member{
+
+.member {
     overflow: hidden;
     position: relative;
-  
 }
-.member-layer .inner .icons .icon{
+
+.member-layer .inner .icons .icon {
     background-color: #f25454;
     position: absolute;
     top: 0%;
@@ -117,23 +135,22 @@ position: relative;
     bottom: 0%;
     opacity: 0;
     transition: all 2s;
-    
-    
 }
-.member:hover .member-layer .inner .icons .icon{
+
+.member:hover .member-layer .inner .icons .icon {
     opacity: 0.4;
-    
 }
 
-.member:hover img{
-    transform: scale(1.2,1.2);
+.member:hover img {
+    transform: scale(1.2, 1.2);
 }
 
-#services,#Communicate{
+#services,
+#Communicate {
     background-color: #fafafa;
-
 }
-.service-icon{
+
+.service-icon {
     top: 0px;
     left: -40px;
     font-size: 1.5rem;
