@@ -90,3 +90,52 @@ position: relative;
     -ms-border-radius: 0 2px 2px 0;
     -o-border-radius: 0 2px 2px 0;
 }
+.titles h3{
+    font-size: 40px;
+    font-weight: 900;
+    
+    font-family: "Poppins", sans-serif;
+    color: #282828;
+}
+ .titles h2{
+    
+    font-size: 100px;
+    font-weight: 900;
+    color: #e9dfdf;
+}
+.member{
+    overflow: hidden;
+    position: relative;
+  
+}
+.member-layer .inner .icons .icon{
+    background-color: #f25454;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    opacity: 0;
+    transition: all 2s;
+    
+    
+}
+.member:hover .member-layer .inner .icons .icon{
+    opacity: 0.4;
+    
+}
+
+.member:hover img{
+    transform: scale(1.2,1.2);
+}
+
+#services,#Communicate{
+    background-color: #fafafa;
+
+}
+.service-icon{
+    top: 0px;
+    left: -40px;
+    font-size: 1.5rem;
+    color: rgba(242, 84, 84);
+}
